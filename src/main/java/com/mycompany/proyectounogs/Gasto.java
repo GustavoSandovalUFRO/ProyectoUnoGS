@@ -10,6 +10,19 @@ package com.mycompany.proyectounogs;
  * @author Gustavo
  */
 public class Gasto {
+     public String nombreGasto;
+     public int valor;
+     public boolean pagado;
+
+    public Gasto(String nombreGasto, int valor, boolean pagado) {
+        this.nombreGasto = nombreGasto;
+        this.valor = valor;
+        this.pagado = pagado;
+    }
+    public int getValor() {
+        return valor;
+    }
     
 }
+
 
